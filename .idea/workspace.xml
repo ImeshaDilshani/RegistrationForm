@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ac08223-7289-45c7-8734-31477211b943" name="Changes" comment="Registration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +37,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "120",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "366",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "90",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "324",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Asus/Documents/OOP/Registration_Form/RegistrationForm",
+    "last_opened_file_path": "C:/Users/Asus/Documents/OOP/Registration_Form/Registration_Form",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +86,7 @@
       <workItem from="1676478489877" duration="12000" />
       <workItem from="1676514974684" duration="45000" />
       <workItem from="1676515068907" duration="100000" />
+      <workItem from="1676515263182" duration="1743000" />
     </task>
     <task id="LOCAL-00001" summary="Registration">
       <created>1676286000231</created>
@@ -100,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676286221869</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Registration">
+      <created>1676515316148</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676515316148</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

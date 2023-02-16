@@ -68,7 +68,7 @@ public class RegistrationForm extends JDialog{
             return;
         }
 
-        user = addUserTODatabase(name,email,phone,password);
+        user = addUserTODatabase(name,email,phone,password, password);
         if (user != null){
             dispose();
         }
@@ -82,7 +82,7 @@ public class RegistrationForm extends JDialog{
     }
 
     public User user;
-    private User addUserTODatabase(String name,String email,String phone,String address){
+    private User addUserTODatabase(String name, String email, String phone, String address, String password){
         User user = null;
 
         final String DB_URL = "jdbc:mysql://localhost/MyStore?serverTimezone=UTC";
@@ -101,7 +101,7 @@ public class RegistrationForm extends JDialog{
             preparedStatement.setString(2,email);
             preparedStatement.setString(3,phone);
             preparedStatement.setString(4,address);
-            preparedStatement.setString(5,user.password);
+            preparedStatement.setString(5,password);
 
             //Insert row into the table
             int addedRows = preparedStatement.executeUpdate();
@@ -111,7 +111,7 @@ public class RegistrationForm extends JDialog{
                 user.email = email;
                 user.phone = phone;
                 user.address = address;
-                user.password = user.password;
+                user.password = password;
             }
 
             //close the connection
