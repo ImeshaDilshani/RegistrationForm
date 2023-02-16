@@ -49,7 +49,7 @@ public class RegistrationForm extends JDialog{
         String email = tFemail.getText();
         String phone = tFphonenumber.getText();
         String address = tFaddress.getText();
-        String password = tFpassword.getText();
+        String password = pFpassword.getText();
         String confirmPassword = String.valueOf(pFconfirmpw.getPassword());
 
         if (name.isEmpty() || email.isEmpty() || phone.isEmpty() || address.isEmpty()  || password.isEmpty()){
