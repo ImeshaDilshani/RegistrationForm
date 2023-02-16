@@ -94,8 +94,7 @@ public class RegistrationForm extends JDialog{
             // connected to database successfully.....
 
             Statement stmt = conn.createStatement();
-            String sql = "INSERT INTO users (name, email, address, password)" +
-                    "VALUES (?,?,?,?,?)";
+            String sql = "INSERT INTO users (name, email, address, password)" + "VALUES (?,?,?,?,?)";
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
             preparedStatement.setString(1,name);
             preparedStatement.setString(2,email);

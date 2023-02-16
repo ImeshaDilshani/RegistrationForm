@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac08223-7289-45c7-8734-31477211b943" name="Changes" comment="Registration">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "90",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "324",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Asus/Documents/OOP/Registration_Form/Registration_Form",
+    "last_opened_file_path": "C:/Users/Asus/Documents/GitHub/Airline_Reservation_Management_System",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,6 +87,7 @@
       <workItem from="1676514974684" duration="45000" />
       <workItem from="1676515068907" duration="100000" />
       <workItem from="1676515263182" duration="2309000" />
+      <workItem from="1676528899089" duration="2667000" />
     </task>
     <task id="LOCAL-00001" summary="Registration">
       <created>1676286000231</created>
