@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ac08223-7289-45c7-8734-31477211b943" name="Changes" comment="Registration user">
+    <list default="true" id="0ac08223-7289-45c7-8734-31477211b943" name="Changes" comment="Finish RegistrationForm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegistrationForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +94,7 @@
       <workItem from="1676515263182" duration="2309000" />
       <workItem from="1676528899089" duration="2775000" />
       <workItem from="1676546591863" duration="28000" />
-      <workItem from="1676634862768" duration="4884000" />
+      <workItem from="1676634862768" duration="6223000" />
     </task>
     <task id="LOCAL-00001" summary="Registration">
       <created>1676286000231</created>
@@ -143,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676643651571</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finish RegistrationForm">
+      <created>1676646017556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676646017556</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Registration" />
     <MESSAGE value="Registration user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Registration user" />
+    <MESSAGE value="Finish RegistrationForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish RegistrationForm" />
   </component>
 </project>
