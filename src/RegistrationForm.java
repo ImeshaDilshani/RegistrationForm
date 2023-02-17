@@ -90,7 +90,7 @@ public class RegistrationForm extends JDialog{
     private User addUserTODatabase(String name, String email, String phone, String address, String password){
         User user = null;
 
-        final String DB_URL = "jdbc:mysql://localhost/RStore?serverTimezone=UTC";
+        final String DB_URL = "jdbc:mysql://localhost/mystore?serverTimezone=UTC";
         final String USERNAME = "root";
         final String PASSWORD = "";
 
@@ -100,7 +100,7 @@ public class RegistrationForm extends JDialog{
             // connected to database successfully.....
 
             Statement stmt = conn.createStatement();
-            String sql = "INSERT INTO users (name, email, address, password)" + "VALUES (?,?,?,?,?)";
+            String sql = "INSERT INTO users (name, email,phone, address, password)" + "VALUES (?,?,?,?,?)";
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
             preparedStatement.setString(1,name);
             preparedStatement.setString(2,email);
