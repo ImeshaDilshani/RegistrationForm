@@ -18,3 +18,13 @@ Registration Form is a web application which is developed in Java platform. This
 
 # If Confirm Password doesn't match
 ![06](https://user-images.githubusercontent.com/93858302/219698042-fe4a471a-3de3-4283-8a5a-16fe5106a360.png)
+
+## Authors
+
+- [Imesha Dilshani](https://github.com/ImeshaDilshani)
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at imeshadilshani212@gmail.com
+
