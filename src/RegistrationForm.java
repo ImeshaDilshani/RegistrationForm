@@ -26,13 +26,17 @@ public class RegistrationForm extends JDialog{
         setMinimumSize(new Dimension(450,474));
         setModal(true);
         setLocationRelativeTo(parent);
+
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+
+        //register button
         registerButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 registerUser();
             }
         });
+        //cancel button
         cancelButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -69,6 +73,7 @@ public class RegistrationForm extends JDialog{
         }
 
         user = addUserTODatabase(name,email,phone,password, password);
+
         if (user != null){
             dispose();
         }
@@ -85,11 +90,12 @@ public class RegistrationForm extends JDialog{
     private User addUserTODatabase(String name, String email, String phone, String address, String password){
         User user = null;
 
-        final String DB_URL = "jdbc:mysql://localhost/MyStore?serverTimezone=UTC";
+        final String DB_URL = "jdbc:mysql://localhost/RStore?serverTimezone=UTC";
         final String USERNAME = "root";
         final String PASSWORD = "";
 
         try {
+
             Connection conn = DriverManager.getConnection(DB_URL,USERNAME,PASSWORD);
             // connected to database successfully.....
 

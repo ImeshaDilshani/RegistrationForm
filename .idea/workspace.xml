@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ac08223-7289-45c7-8734-31477211b943" name="Changes" comment="Registration">
+    <list default="true" id="0ac08223-7289-45c7-8734-31477211b943" name="Changes" comment="Registration user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationForm.java" afterDir="false" />
     </list>
@@ -40,14 +40,14 @@
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "90",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "324",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Asus/Documents/GitHub/Airline_Reservation_Management_System",
+    "last_opened_file_path": "C:/Users/Asus/Documents/GitHub/Registration_Form/mysql-connector-j-8.0.32.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -87,7 +87,9 @@
       <workItem from="1676514974684" duration="45000" />
       <workItem from="1676515068907" duration="100000" />
       <workItem from="1676515263182" duration="2309000" />
-      <workItem from="1676528899089" duration="2667000" />
+      <workItem from="1676528899089" duration="2775000" />
+      <workItem from="1676546591863" duration="28000" />
+      <workItem from="1676634862768" duration="2110000" />
     </task>
     <task id="LOCAL-00001" summary="Registration">
       <created>1676286000231</created>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676517522427</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Registration user">
+      <created>1676531701226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676531701226</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Registration" />
+    <MESSAGE value="Registration user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registration user" />
   </component>
 </project>
